@@ -80,4 +80,5 @@ keymap("n", "<leader>du", "<cmd>lua require'dapui'.toggle()<cr>", opts)
 keymap("n", "<leader>dt", "<cmd>lua require'dap'.terminate()<cr>", opts)
 
 keymap("n", "<leader>fm", "<cmd>vim.lsp.buf.format<cr>", opts)
-
+keymap("n", "<leader>xx", "<cmd>TroubleToggle<cr>", opts)
+keymap("n", "<leader>gR", "<cmd>TroubleToggle lsp_references<cr>", opts)
